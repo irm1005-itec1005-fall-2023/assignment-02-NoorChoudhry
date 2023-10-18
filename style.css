@@ -2,18 +2,121 @@
  * Assignment 02
  * CSS FILE
  */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ body {
+  background-color: rgb(173, 204, 153);
+  color: ivory;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+
+/* HEADER BEGINS HERE */
+
+
+header {
+  padding: 2rem;
   text-align: center;
-  color: #023047;
+}
+
+header .toplogo {
+  width: 200px;
+  height: 200px;
+  position: sticky;
+}
+
+header .navigation {
+  background-color:darkgreen;
+  border-radius: 1rem;
+  color: rgb(222, 255, 221);
+  text-align: center;
+}
+header a {
+  color: rgb(173, 204, 153);
+  text-decoration: none;
+}
+header a:hover {
+  color: rgb(247, 251, 175);
+  text-decoration: underline;
+}
+
+
+/* MAIN BEGINS HERE */
+
+
+main {
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: ivory;
+  color: darkgreen;
+}
+
+main h1 {
+  text-align: center;
+  background-color: rgb(173, 204, 153);
+  border-radius: 1rem;
+  color: ivory;
+}
+
+main .sport {
+  width: 500px;
+  height: 500px;
+}
+main .community {
+  width: 500px;
+  height: 500px;
+}
+
+.form {
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  background-color: rgb(173, 204, 153);
+  border-radius: 1rem;
+  color: ivory;
+  border-style:double ; groove ;
+  border-color: darkgreen;
+}
+
+h3 {
+  color: darkgreen;
+}
+
+
+/* FOOTER BEGINS HERE */
+
+
+footer {
+  background-color: darkgreen;
+  border-radius: 1rem;
+  margin: 3rem 0 0rem 0;
+}
+
+footer .bottomlogo {
+  height: 75px;
+  width: 75px; 
+ float: left; margin: 15px; 
+}
+
+footer h1 {
+  color: inherit;
+  text-align: center;
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+}
+
+footer p {
+  margin-top: 3rem;
+  margin-left: 1.5rem;
+  color:  rgb(173, 204, 153);
+}
+
+footer ul {
+  list-style: square; color: rgb(247, 251, 175);
+}
+
+footer a {
+  color: rgb(173, 204, 153);
+  text-align: center;
+}
+footer a:hover {
+  color: rgb(247, 251, 175);
+  text-decoration: underline;
 }
