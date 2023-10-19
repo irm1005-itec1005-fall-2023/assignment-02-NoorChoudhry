@@ -2,18 +2,133 @@
  * Assignment 02
  * CSS FILE
  */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
+ body {
+  background-color: rgb(173, 204, 153);
+  color: ivory;
+  padding: 1rem;
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+
+/* HEADER BEGINS HERE */
+
+
+header {
+  padding: 2rem;
   text-align: center;
-  color: #023047;
+}
+
+header .toplogo {
+  width: 200px;
+  height: 200px;
+  position: sticky;
+}
+
+header .navigation {
+  background-color:darkgreen;
+  border-radius: 1rem;
+  color: rgb(222, 255, 221);
+  text-align: center;
+}
+header a {
+  color: rgb(173, 204, 153);
+  text-decoration: none;
+}
+header a:hover {
+  color: rgb(247, 251, 175);
+  text-decoration: underline;
+}
+
+
+/* MAIN BEGINS HERE */
+
+
+main {
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: ivory;
+  color: darkgreen;
+}
+
+main .heroic {
+  border-radius: 1rem;
+  padding-bottom: .5rem;
+}
+
+main h1 {
+  text-align: center;
+  background-color: rgb(173, 204, 153);
+  border-radius: .5rem;
+  color: ivory;
+  padding: .3rem;
+}
+
+main .sport {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+main .community {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 1rem;
+  padding: .5rem;
+}
+
+.form {
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  background-color: rgb(173, 204, 153);
+  border-radius: 1rem;
+  color: ivory;
+  border-color: darkgreen;
+}
+
+h3 {
+  color: darkgreen;
+  padding-top: 1rem;
+}
+
+
+/* FOOTER BEGINS HERE */
+
+
+footer {
+  background-color: darkgreen;
+  border-radius: 1rem;
+  margin: 3rem 0 0rem 0;
+}
+
+footer .bottomlogo {
+  height: 5rem;
+  width:  5rem; 
+ float: left; margin: 15px; 
+}
+
+footer h1 {
+  color: rgb(247, 251, 175);
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: 0rem;
+}
+
+footer p {
+  margin-top: 4rem;
+  margin-left: 1.5rem;
+  color:  rgb(173, 204, 153);
+}
+
+footer ul {
+  list-style: square; color: rgb(247, 251, 175);
+}
+
+footer a {
+  color: rgb(173, 204, 153);
+  text-align: center;
+}
+footer a:hover {
+  color: rgb(247, 251, 175);
+  text-decoration: underline;
 }
