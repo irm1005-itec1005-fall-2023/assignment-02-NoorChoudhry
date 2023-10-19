@@ -5,6 +5,7 @@
  body {
   background-color: rgb(173, 204, 153);
   color: ivory;
+  padding: 1rem;
 }
 
 
@@ -48,6 +49,10 @@ main {
   color: darkgreen;
 }
 
+main .heroic {
+  border-radius: .5rem;
+}
+
 main h1 {
   text-align: center;
   background-color: rgb(173, 204, 153);
@@ -57,12 +62,16 @@ main h1 {
 }
 
 main .sport {
-  width: 500px;
-  height: 500px;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 1rem;
+  padding: .5rem;
 }
 main .community {
-  width: 500px;
-  height: 500px;
+  width: 25rem;
+  height: 25rem;
+  border-radius: 1rem;
+  padding: .5rem;
 }
 
 .form {
@@ -77,6 +86,7 @@ main .community {
 
 h3 {
   color: darkgreen;
+  padding-top: 1rem;
 }
 
 
@@ -90,20 +100,20 @@ footer {
 }
 
 footer .bottomlogo {
-  height: 75px;
-  width: 75px; 
+  height: 5rem;
+  width:  5rem; 
  float: left; margin: 15px; 
 }
 
 footer h1 {
-  color: inherit;
+  color: rgb(247, 251, 175);
   text-align: center;
-  margin-top: 3rem;
-  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
 }
 
 footer p {
-  margin-top: 3rem;
+  margin-top: 4rem;
   margin-left: 1.5rem;
   color:  rgb(173, 204, 153);
 }
