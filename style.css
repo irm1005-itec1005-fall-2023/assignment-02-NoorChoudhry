@@ -51,8 +51,9 @@ main {
 main h1 {
   text-align: center;
   background-color: rgb(173, 204, 153);
-  border-radius: 1rem;
+  border-radius: .5rem;
   color: ivory;
+  padding: .3rem;
 }
 
 main .sport {
