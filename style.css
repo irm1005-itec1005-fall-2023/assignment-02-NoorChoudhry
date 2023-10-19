@@ -50,7 +50,8 @@ main {
 }
 
 main .heroic {
-  border-radius: .5rem;
+  border-radius: 1rem;
+  padding-bottom: .5rem;
 }
 
 main h1 {
